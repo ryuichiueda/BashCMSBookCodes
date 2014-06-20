@@ -1,0 +1,7 @@
+#!/bin/bash -vx
+
+for w in {a..z}{a..z}{a..z} ; do
+    sleep 0.1       #負荷をかけすぎて執筆が止まらないようにsleepを入れる
+    ./newdraft $w
+    ./diarycommit $w
+done

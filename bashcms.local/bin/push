@@ -1,0 +1,8 @@
+#!/bin/bash
+
+pagedir=$(dirname $0)/../pages
+remote=192.168.2.50
+#remote=test.usptomo.com
+#remote=203.0.113.1
+
+rsync -av --delete --exclude '.*' "$pagedir/" "$remote:/var/www/bashcms/pages/"

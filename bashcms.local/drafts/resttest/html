@@ -1,0 +1,30 @@
+<h1>reStructuredText</h1>
+<h2 id="restructuredtext-rest">reStructuredText（reST）とは？</h2>
+
+<p>ある決まりに従って構造を表現したテキストです。そういう意味ではHTMLと似ていますが、
+reSTの場合、こんなふうに、テキストの状態で人が見ても、体裁が整った原稿に見えます。</p>
+<ul>
+<li>箇条書きは、</li>
+<li>こんなふうに書きます。</li>
+</ul>
+<p>表は、いくつか書き方がありますが、リストのように書く方法をここでは例示します。</p>
+<table border="1">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th>京急</th>
+<th>阪急</th>
+<th>阪神</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>高輪</td>
+<td>北区芝田</td>
+<td>バース</td>
+</tr>
+</tbody>
+</table>
+<p>以上</p>
