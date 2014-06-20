@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo apt-get install unzip
+sudo apt-get install make
+wget --no-check-certificate https://github.com/usp-engineers-community/Open-usp-Tukubai/archive/master.zip
+unzip master.zip
+cd Open-usp-Tukubai-master/
+sudo make install

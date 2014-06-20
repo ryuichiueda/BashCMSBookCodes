@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>bashCMSブログ</title>
+        <link>http://192.168.2.50</link>
+        <description>bashCMS作ってます。</description>
+		<item>
+		    <title>title</title>
+		    <link>http://192.168.2.50/?p=20140602201909_testentry</link>
+		    <description>
+		        
+		    </description>
+		    <pubDate>Mon, 02 Jun 2014 20:19:09 +0900</pubDate>
+		</item>
+		<item>
+		    <title>ネギの惑星</title>
+		    <link>http://192.168.2.50/?p=20131129094624_negi</link>
+		    <description>
+		        青ネギ
+		
+		白ネギ
+		    </description>
+		    <pubDate>Fri, 29 Nov 2013 09:46:24 +0900</pubDate>
+		</item>
+		<item>
+		    <title>シェルについて</title>
+		    <link>http://192.168.2.50/?p=20130814131048_all_about_bash</link>
+		    <description>
+		        シェルについて、自分なりにまとめてみた
+		シェルとは
+		シェルとは、シャレではない。
+		    </description>
+		    <pubDate>Wed, 14 Aug 2013 13:10:48 +0900</pubDate>
+		</item>
+		<item>
+		    <title></title>
+		    <link>http://192.168.2.50/?p=20130813011020_midnight_bash</link>
+		    <description>
+		        
+		    </description>
+		    <pubDate>Tue, 13 Aug 2013 01:10:20 +0900</pubDate>
+		</item>
+		<item>
+		    <title></title>
+		    <link>http://192.168.2.50/?p=20130812165639_next_post</link>
+		    <description>
+		        
+		    </description>
+		    <pubDate>Mon, 12 Aug 2013 16:56:39 +0900</pubDate>
+		</item>
+		<item>
+		    <title></title>
+		    <link>http://192.168.2.50/?p=20130812165551_first_post</link>
+		    <description>
+		        
+		    </description>
+		    <pubDate>Mon, 12 Aug 2013 16:55:51 +0900</pubDate>
+		</item>
+    </channel>
+</rss>

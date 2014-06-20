@@ -1,0 +1,8 @@
+#!/bin/bash
+brew install python
+brew install wget
+wget --no-check-certificate https:////github.com/\
+usp-engineers-community/Open-usp-Tukubai/archive/master.zip
+unzip master.zip
+cd Open-usp-Tukubai-master
+sudo make install

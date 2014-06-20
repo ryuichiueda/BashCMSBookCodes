@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>bashCMSブログ</title>
+    <link rel="stylesheet" href="/default.css" />
+    <script src="/common.js"></script>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <header id="page-header">
+        <hgroup>
+            <h1><a href="/">bashCMSブログ</a></h1>
+            <h2>執筆が大変だ。</h2>
+        </hgroup>
+        <nav><ul>
+            <li><a href="?p=whats_bashCMS">bashCMSとは? </a></li>
+            <li><a href="?p=links">ためになるサイト</a></li>
+        </ul></nav>
+    </header>
+    <article id="article">
+        <header id="article-header">
+            <div id="upload-time">@UPLOAD&nbsp;</div>
+            <nav class="diary-nav"><ul>
+<!-- NAVI_HEADER -->
+                    <li><a href="/?p=%2">%1</a></li>
+<!-- NAVI_HEADER -->
+            </ul></nav>
+        </header>
+        <article id="article-body">
+            <!-- DOCUMENT -->
+        </article>
+        <footer id="article-footer">
+            <nav class="diary-nav"><ul>
+<!-- NAVI_FOOTER -->
+                <li><a href="/?p=%2">%1</a></li>
+<!-- NAVI_FOOTER -->
+            </ul></nav>
+            <br />カテゴリー:
+<!-- CATEGORIES -->
+            <a href="#" onclick="categorySearch('%1')">%1</a>&nbsp;
+<!-- CATEGORIES -->
+        </footer>
+    </article>
+    <aside id="widgets">
+        <aside id="last-articles"></aside>
+    </aside>
+    <footer id="page-footer">
+        <p><small>Copyright(C) 2013 Ryuichi UEDA all rights reserved.</small></p>
+    </footer>
+</body>
+</html>

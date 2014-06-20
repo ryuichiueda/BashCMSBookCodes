@@ -1,0 +1,12 @@
+#!/bin/bash
+dir=$(dirname $0)
+tmp=/tmp/$$
+exec 2> $dir/../www-data/$(basename $0).$(date +%Y%m%d%H%M%S).$$
+
+tdir=$dir/trackback
+
+echo ${QUERY_STRING} > $tdir/get.$$
+dd bs=${CONTENT_LENGTH} > $tdir/post.$$
+
+echo "Content-Type: text/html"
+echo
